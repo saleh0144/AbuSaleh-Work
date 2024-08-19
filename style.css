@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+  }
+  body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+.NameHeilight{
+    color: orange;
+    
+}
+
+.leftSideContent{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.leftSideContent img{
+    width: 100%;
+}
+
+
+/* .HeaderSection{
+    height: 50px;
+}
+.leftSideContent{
+width: 40%;
+float: left;
+}
+.leftSideContent h1{}
+.leftSideContent h2{}
+.leftSideContent h3{}
+.leftSideContent p{
+    text-align: justify;
+}
+.RightSideContent{
+      width: 40%;
+      float: left;
+}
+.RightSideContent img{
+    width: 100%;
+   
+} */
