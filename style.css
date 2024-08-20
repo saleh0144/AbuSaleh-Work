@@ -6,41 +6,130 @@
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
+    margin-top: 20px;
+  
+  }
+  h1{
+    font-size: 45px;
+  }
+  h2{
+    font-size: 35px;
+  }
+  h3{
+    font-size: 20px;
+  }
+  p{
+    font-size: 15px;
+    text-align: justify;
+    padding: 10px;
   }
 .NameHeilight{
     color: orange;
     
 }
-
-.leftSideContent{
-    width: 40%;
-    float: left;
-    margin-left: 5%;
-    padding-left: 2%;
+.clear{
+    overflow: hidden;
 }
-.leftSideContent img{
-    width: 100%;
-}
+.headerSection{
+height: 600px;
+background: url('images/top-banner.png') no-repeat #fffced ;
+margin-bottom: 20px;
 
 
-/* .HeaderSection{
-    height: 50px;
 }
+
 .leftSideContent{
 width: 40%;
 float: left;
+margin-left: 5%;
+padding-left: 2%;
+
 }
 .leftSideContent h1{}
 .leftSideContent h2{}
 .leftSideContent h3{}
 .leftSideContent p{
-    text-align: justify;
+
 }
 .RightSideContent{
       width: 40%;
-      float: left;
+      float: right;
+      margin-top: 10%;
+    
 }
 .RightSideContent img{
-    width: 100%;
+    width: 400px;
+    height: 400px;
+    
    
-} */
+}
+.button{}
+.button a{
+    text-decoration: none;
+  background-image: linear-gradient(45deg, lightSalmon, tomato );
+    padding: 5px 20px;
+    margin: 5px 5px;
+    border-radius: 10px;
+    color: #ffff;
+    font-weight: 700;
+}
+.MiddleSection{
+margin-top: 5%;
+background: url('images/dream-bg.png') no-repeat;
+background-position: right;
+margin-left: 5%;
+padding-left: 2%;
+
+}
+.MiddleSectionLeft{
+float: left;
+width: 40%;
+
+
+}
+.MiddleSectionLeft img{
+    width: 450px;
+    height: 450px;
+}
+.MiddleSectionRight{
+float: right;
+width: 40%;
+margin-right: 5%;
+padding-right: 2%;
+}
+.MiddleSectionRight h1{}
+.MiddleSectionRight h3{}
+.MiddleSectionRight p{}
+
+.experienceArea{
+  margin-top: 5%;
+margin-bottom: 30px;
+height: 500px;
+background: url('images/exp-bg.png')no-repeat left;
+}
+.halfwidth{
+  width: 40%;
+  float: left;
+  margin-left: 5%;
+  padding-left: 2%;
+  border-radius: 8px;
+
+}
+.single-ex{
+  box-shadow: 5px 5px 40px rgb(159, 146, 121);
+}
+#fullStack{
+border-left: 5px solid #fc7702;  
+border-image:linear-gradiant(180deg, lightSalmon, tomato) ;
+border-image-slice: 1 ;
+}
+
+#fullStack2{
+  border-left: 5px solid #2b005a; 
+  border-image: linear-gradiant(180deg, lightblue, blue); 
+  border-image-slice: 2;
+}
+.footer p{
+  text-align: center;
+  font-family: 15px;
+}
